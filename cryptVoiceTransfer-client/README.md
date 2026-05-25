@@ -1,2 +1,3 @@
-# RealTime Voice Encryption Transfer System
-다들 화이팅  
+# client
+
+### 클라이언트끼리 음성 통신을 위한 python 프로그램
