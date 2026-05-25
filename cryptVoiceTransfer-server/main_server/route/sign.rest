@@ -1,0 +1,24 @@
+### 로그인 실패 테스트(아이디를 보내지 않은 경우)
+POST {{url}}/sign/sign-in
+Content-Type: application/json
+
+{
+    "password": "12345"
+}
+
+### 로그인 실패 테스트(비밀번호를 보내지 않은 경우)
+POST {{url}}/sign/sign-in
+Content-Type: application/json
+
+{
+    "id": "admin"
+}
+
+### 로그인 실패 테스트(아이디와 비밀번호가 틀린 경우)
+POST {{url}}/sign/sign-in
+Content-Type: application/json
+
+{
+    "id": "admin",
+    "password": "12345"
+}
